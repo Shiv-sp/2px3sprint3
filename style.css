@@ -101,3 +101,45 @@ ul {
     list-style-type: disc;
     padding-left: 20px;
 }
+
+/* Hide patient details by default */
+.patient-details {
+    display: none;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.patient-details h3 {
+    margin-bottom: 10px;
+}
+
+/* Styling for the patient details section */
+.patient-details {
+    display: none;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.patient-details h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2d3748;
+}
+
+.patient-details p {
+    margin-bottom: 5px;
+}
+
+.patient-details strong {
+    font-weight: bold;
+}
+
+.patient-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
