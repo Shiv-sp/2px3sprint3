@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartMed Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">SmartMed Dashboard</h1>
+            <button class="login-btn">Login</button>
+        </header>
+        
+        <div class="dashboard">
+            <section class="patient-list">
+                <h2>Patient List</h2>
+                <div class="patient urgent">John Doe - Urgent</div>
+                <div class="patient moderate">Jane Smith - Moderate</div>
+                <div class="patient non-urgent">Mark Lee - Non-Urgent</div>
+                <div class="patient non-urgent">Emma Johnson - Non-Urgent</div>
+                <div class="patient moderate">Michael Brown - Moderate</div>
+            </section>
+
+            <section class="rfid-tracking">
+                <h2>RFID Tracking</h2>
+                <p>Real-time tracking of patient movements and priority status updates.</p>
+                <ul>
+                    <li>John Doe moved to Emergency Ward</li>
+                    <li>Jane Smith checked into Room 105</li>
+                    <li>Mark Lee is waiting for diagnostic tests</li>
+                    <li>Emma Johnson is awaiting consultation</li>
+                    <li>Michael Brown is scheduled for an X-ray</li>
+                </ul>
+            </section>
+
+            <section class="doctor-availability">
+                <h2>Doctor Availability</h2>
+                <div class="doctor available">Dr. Smith - Available</div>
+                <div class="doctor busy">Dr. Lee - Busy</div>
+                <div class="doctor available">Dr. Patel - Available</div>
+                <div class="doctor busy">Dr. Chen - Busy</div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
