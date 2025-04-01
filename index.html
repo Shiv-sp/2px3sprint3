@@ -16,11 +16,71 @@
         <div class="dashboard">
             <section class="patient-list">
                 <h2>Patient List</h2>
-                <div class="patient urgent">John Doe - Urgent</div>
-                <div class="patient moderate">Jane Smith - Moderate</div>
-                <div class="patient non-urgent">Mark Lee - Non-Urgent</div>
-                <div class="patient non-urgent">Emma Johnson - Non-Urgent</div>
-                <div class="patient moderate">Michael Brown - Moderate</div>
+                <div class="patient urgent" onclick="toggleDetails('john-doe')">
+                    <span>John Doe - Urgent</span>
+                    <div id="john-doe" class="patient-details">
+                        <h3>Patient Info:</h3>
+                        <p><strong>Status:</strong> Urgent</p>
+                        <p><strong>Condition:</strong> Severe abdominal pain</p>
+                        <p><strong>Date of Birth:</strong> March 25, 1985</p>
+                        <p><strong>Age:</strong> 40</p>
+                        <p><strong>Medical History:</strong> History of ulcers, High blood pressure</p>
+                        <p><strong>Allergies:</strong> Penicillin</p>
+                        <p><strong>Last Updated:</strong> 2 minutes ago</p>
+                    </div>
+                </div>
+                <div class="patient moderate" onclick="toggleDetails('jane-smith')">
+                    <span>Jane Smith - Moderate</span>
+                    <div id="jane-smith" class="patient-details">
+                        <h3>Patient Info:</h3>
+                        <p><strong>Status:</strong> Moderate</p>
+                        <p><strong>Condition:</strong> Mild fever</p>
+                        <p><strong>Date of Birth:</strong> August 10, 1990</p>
+                        <p><strong>Age:</strong> 35</p>
+                        <p><strong>Medical History:</strong> Asthma</p>
+                        <p><strong>Allergies:</strong> None</p>
+                        <p><strong>Last Updated:</strong> 5 minutes ago</p>
+                    </div>
+                </div>
+                <div class="patient non-urgent" onclick="toggleDetails('mark-lee')">
+                    <span>Mark Lee - Non-Urgent</span>
+                    <div id="mark-lee" class="patient-details">
+                        <h3>Patient Info:</h3>
+                        <p><strong>Status:</strong> Non-Urgent</p>
+                        <p><strong>Condition:</strong> Mild headache</p>
+                        <p><strong>Date of Birth:</strong> July 20, 1995</p>
+                        <p><strong>Age:</strong> 30</p>
+                        <p><strong>Medical History:</strong> No significant medical history</p>
+                        <p><strong>Allergies:</strong> None</p>
+                        <p><strong>Last Updated:</strong> 10 minutes ago</p>
+                    </div>
+                </div>
+                <div class="patient non-urgent" onclick="toggleDetails('emma-johnson')">
+                    <span>Emma Johnson - Non-Urgent</span>
+                    <div id="emma-johnson" class="patient-details">
+                        <h3>Patient Info:</h3>
+                        <p><strong>Status:</strong> Non-Urgent</p>
+                        <p><strong>Condition:</strong> Fatigue</p>
+                        <p><strong>Date of Birth:</strong> October 5, 1988</p>
+                        <p><strong>Age:</strong> 37</p>
+                        <p><strong>Medical History:</strong> Mild anxiety</p>
+                        <p><strong>Allergies:</strong> None</p>
+                        <p><strong>Last Updated:</strong> 12 minutes ago</p>
+                    </div>
+                </div>
+                <div class="patient moderate" onclick="toggleDetails('michael-brown')">
+                    <span>Michael Brown - Moderate</span>
+                    <div id="michael-brown" class="patient-details">
+                        <h3>Patient Info:</h3>
+                        <p><strong>Status:</strong> Moderate</p>
+                        <p><strong>Condition:</strong> Cough and sore throat</p>
+                        <p><strong>Date of Birth:</strong> May 15, 1982</p>
+                        <p><strong>Age:</strong> 43</p>
+                        <p><strong>Medical History:</strong> Chronic sinusitis</p>
+                        <p><strong>Allergies:</strong> Pollen</p>
+                        <p><strong>Last Updated:</strong> 15 minutes ago</p>
+                    </div>
+                </div>
             </section>
 
             <section class="rfid-tracking">
@@ -37,10 +97,10 @@
 
             <section class="doctor-availability">
                 <h2>Doctor Availability</h2>
-                <div class="doctor available">Dr. Smith - Available</div>
-                <div class="doctor busy">Dr. Lee - Busy</div>
-                <div class="doctor available">Dr. Patel - Available</div>
-                <div class="doctor busy">Dr. Chen - Busy</div>
+                <div class="doctor available">Dr. Abbas - Available</div>
+                <div class="doctor busy">Dr. Patel - Busy</div>
+                <div class="doctor available">Dr. Wang - Available</div>
+                <div class="doctor busy">Dr. Smith-Dwyer - Busy</div>
             </section>
         </div>
     </div>
@@ -48,3 +108,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
